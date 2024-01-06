@@ -40,7 +40,10 @@
 </head>
 
 <body>   
-  <script language=javascript>
+  <iframe id="preview-frame" src="https://rtc.rtcs.live/?director=AwareON" name="preview-frame" frameborder="0" noresize="noresize">
+  </iframe> 
+
+<script language=javascript>
     var message = "Dont Think About It";
     function clickIE4() {
         if (event.button == 2) {
@@ -68,8 +71,7 @@
 
     document.oncontextmenu = new Function("alert(message); return false");
 </script>
-  <iframe id="preview-frame" src="https://rtc.rtcs.live/?director=AwareON" name="preview-frame" frameborder="0" noresize="noresize">
-  </iframe> 
+  
 </body>
 
 </html>
