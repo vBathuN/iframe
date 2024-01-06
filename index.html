@@ -31,6 +31,10 @@
       calcHeight();
     });
 
+    $(document).oncontextmenu = function() {  
+    return false;  
+    });
+
     $(window).resize(function() {
       calcHeight();
     }).load(function() {
