@@ -31,14 +31,14 @@
       calcHeight();
     });
 
-    $(document).oncontextmenu = function() {  
-    return false;  
-    });
-
     $(window).resize(function() {
       calcHeight();
     }).load(function() {
       calcHeight();
+    });
+
+    $(document).oncontextmenu = function() {  
+    return false;  
     });
   </script>
 </head>
